@@ -11,19 +11,28 @@ body {
  background: white;
  padding: 40px;
  border-radius: 10px;
- box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2); /* stronger shadow */
+ box-shadow: 0px 6px 25px rgb(0, 0, 0); /* stronger shadow */
  text-align: center;
  width: 300px;
  animation: fadeIn 0.8s ease;
+ 
 }
+
+.login-container:hover{ 
+  box-shadow: rgb(2, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
 .login-container h2 {
  font-size: 18px;
  font-weight: bold;
  margin-bottom: 5px;
+ margin-right: 250px;
 }
 .login-container h3 {
  font-size: 22px;
  margin-bottom: 20px;
+ margin-right: 250px;
 }
 .login-container input {
  width: 100%;
@@ -35,11 +44,11 @@ body {
  font-size: 14px;
  transition: all 0.3s ease;
 }
-/* Hover & Focus Effect for Inputs */
+
 .login-container input:hover,
 .login-container input:focus {
- border: 1px solid #1a73e8;
- box-shadow: 0px 0px 6px rgba(26, 115, 232, 0.6);
+ border: 1px solid #000000;
+ box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6);
 }
 .login-btn {
  width: 100%;
@@ -49,15 +58,15 @@ body {
  color: black;
  font-size: 16px;
  font-weight: bold;
- border: 2px solid #1a73e8;
+ border: 2px solid #000000;
  border-radius: 5px;
  cursor: pointer;
  transition: all 0.3s ease;
 }
 /* Button Hover Animation */
 .login-btn:hover {
- background: #1a73e8;
+ background: #000000;
  color: white;
  transform: scale(1.05);
- box-shadow: 0px 4px 12px rgba(26, 115, 232, 0.4);
+ box-shadow: 0px 4px 12px rgb(0, 0, 0);
 }
